@@ -1,0 +1,73 @@
+header {
+  background-color: rgb(126, 46, 46);
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+header .logo {
+  position: absolute;
+  left: 20px;
+  color: darkblue;
+  font-size: 30px;
+}
+header ul {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(6, 8, 105);
+  display: flex;
+  flex-direction: row;
+}
+header li a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(6, 8, 105);
+  padding: 20px;
+}
+header .sign {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(6, 8, 105);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: rgb(126, 46, 46);
+  padding: 20px;
+  width: 50vw;
+}
+main form input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main input {
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin: 9px;
+  color: black;
+  left: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */

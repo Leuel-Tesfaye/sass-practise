@@ -1,0 +1,13 @@
+@mixin flexCenter ($direction) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin listStyle {
+    list-style: none;
+    text-decoration: none;
+    color: $textColor;
+  
+}

@@ -1,0 +1,26 @@
+@import "./variables";
+@import "./mixin";
+header {
+    background-color: $backgroundColor;
+    height: 100px;
+    @include flexCenter(row);
+    .logo{
+        position: absolute;
+        left: 20px;
+        color: darkblue;
+        font-size: 30px;
+    }
+    ul{
+        @include listStyle();
+        display: flex;
+        flex-direction: row;
+    }
+    li a{
+        @include listStyle();
+        padding: 20px; 
+    }
+    .sign{
+        @include flexCenter(row);
+        @include listStyle();
+    }
+}
