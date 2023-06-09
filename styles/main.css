@@ -1,5 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */
 header {
-  background-color: rgb(126, 46, 46);
+  background-color: rgb(80, 79, 79);
   height: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -9,21 +14,29 @@ header {
 header .logo {
   position: absolute;
   left: 20px;
-  color: darkblue;
-  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: sans-serif;
 }
 header ul {
   list-style: none;
   text-decoration: none;
-  color: rgb(6, 8, 105);
+  color: rgb(219, 219, 235);
   display: flex;
   flex-direction: row;
 }
 header li a {
   list-style: none;
   text-decoration: none;
-  color: rgb(6, 8, 105);
+  color: rgb(228, 228, 236);
   padding: 20px;
+}
+header li a:hover {
+  background-color: rgb(145, 238, 238);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  color: black;
 }
 header .sign {
   display: flex;
@@ -44,30 +57,30 @@ main .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 100px;
   font-weight: bold;
   font-size: 1rem;
-  background-color: rgb(126, 46, 46);
+  background-color: rgb(44, 41, 185);
   padding: 20px;
-  width: 50vw;
+  width: 30vw;
+  border-radius: 30px;
 }
 main form input {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 300;
+  padding-left: 10px;
+    
 }
 main input {
   padding: 5px;
-  border: 1px solid blue;
+  border: 1px solid rgb(141, 141, 216);
   border-radius: 10px;
   margin: 9px;
-  color: black;
+  color: rgb(12, 1, 1);
   left: 20px;
+  
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}/*# sourceMappingURL=main.css.map */
